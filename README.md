@@ -5,6 +5,6 @@ including flight management, booking systems, real-time notifications, and secur
 
 
 # Non-Functional-Requirements
--     Transaction Isolation Level: The application must enforce a transaction isolation level that prevents conflicts and inconsistencies when multiple users attempt to book the same seat simultaneously.
+  - Conflict and Consistency Prevention: The application utilizes Transaction Isolation Level to maintain data integrity, ensuring that simultaneous seat bookings by different users are not allowed, thereby preventing conflicts and inconsistencies.
 
--     Idempotency APIs for Payment Gateway: The payment gateway should incorporate idempotency APIs to prevent unintended consequences and accidental duplicate calls during the payment process.
+  - Payment Gateway Idempotency: The payment gateway incorporates Idempotency APIs to prevent unintended outcomes and accidental duplicate calls during the payment process, ensuring reliable and predictable behavior while avoiding any adverse effects.
