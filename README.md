@@ -8,3 +8,8 @@ including flight management, booking systems, real-time notifications, and secur
   - Conflict and Consistency Prevention: The application utilizes Transaction Isolation Level to maintain data integrity, ensuring that simultaneous seat bookings by different users are not allowed, thereby preventing conflicts and inconsistencies.
 
   - Payment Gateway Idempotency: The payment gateway incorporates Idempotency APIs to prevent unintended outcomes and accidental duplicate calls during the payment process, ensuring reliable and predictable behavior while avoiding any adverse effects.
+
+# SKYCONNECT HLD
+
+![HLD SKYCONNECT](https://github.com/batman005/SkyConnect_Backend/assets/51878340/16af3b68-518f-4457-b5ad-ee4eb6746498)
+
